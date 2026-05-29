@@ -130,39 +130,62 @@ color:#fff;
 transform:translateY(-4px);
 }
 
-/* KATEGORI */
+/* =========================
+LAYOUT KATEGORI
+========================= */
 
-.kategori{
-margin-bottom:40px;
+.dashboard-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(380px,1fr));
+gap:25px;
+margin-top:25px;
+margin-bottom:30px;
 }
 
-.kategori h2{
-margin-top:30px;
-margin-bottom:15px;
-color:#0d47a1;
-}
+/* =========================
+CARD KATEGORI
+========================= */
 
 .kategori-card{
 background:#fff;
 border-radius:20px;
-padding:20px;
+padding:25px;
 box-shadow:0 4px 15px rgba(0,0,0,.08);
+height:fit-content;
+transition:.3s;
 }
+
+.kategori-card:hover{
+transform:translateY(-3px);
+}
+
+/* =========================
+JUDUL KATEGORI
+========================= */
 
 .kategori-card h3{
-margin-bottom:15px;
+font-size:22px;
+margin-bottom:18px;
 color:#1565ff;
+padding-bottom:10px;
+border-bottom:2px solid #eef2ff;
 }
 
-.kategori-card .submenu{
+/* =========================
+SUB MENU
+========================= */
+
+.submenu{
 display:flex;
 flex-direction:column;
-gap:10px;
+gap:12px;
 }
 
-.kategori-card .submenu a{
-display:block;
-padding:12px 15px;
+.submenu a{
+display:flex;
+align-items:center;
+padding:14px 18px;
 background:#f5f7fb;
 border-radius:12px;
 text-decoration:none;
@@ -171,31 +194,40 @@ font-weight:500;
 transition:.3s;
 }
 
-.kategori-card .submenu a:hover{
+.submenu a:hover{
 background:#1565ff;
 color:#fff;
+transform:translateX(5px);
 }
 
-.menu-card{
-display:flex;
-align-items:center;
-gap:10px;
+/* =========================
+TABLET
+========================= */
+
+@media(max-width:1200px){
+
+.dashboard-grid{
+grid-template-columns:
+repeat(auto-fit,minmax(320px,1fr));
+}
+
+}
+
+/* =========================
+HP
+========================= */
+
+@media(max-width:768px){
+
+.dashboard-grid{
+grid-template-columns:1fr;
+}
+
+.kategori-card{
 padding:18px;
-background:#fff;
-border-radius:18px;
-text-decoration:none;
-color:#333;
-font-weight:600;
-box-shadow:0 4px 15px rgba(0,0,0,.08);
-transition:.3s;
 }
 
-.menu-card:hover{
-background:#1565ff;
-color:#fff;
-transform:translateY(-4px);
 }
-
 /* FAVORIT */
 
 .favorit{
