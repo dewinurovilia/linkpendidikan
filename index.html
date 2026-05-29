@@ -1,6 +1,263 @@
-<!-- =========================
-MENU LAYANAN PENDIDIKAN
-========================= -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Operator SD</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+<div class="logo">
+🎓 PORTAL SD
+</div>
+
+<nav>
+
+<a href="#">
+<i class="fa fa-house"></i>
+<span>Dashboard</span>
+</a>
+
+<a href="#">
+<i class="fa fa-school"></i>
+<span>Dapodik</span>
+</a>
+
+<a href="#">
+<i class="fa fa-check-circle"></i>
+<span>Verval</span>
+</a>
+
+<a href="#">
+<i class="fa fa-user-tie"></i>
+<span>GTK</span>
+</a>
+
+<a href="#">
+<i class="fa fa-chart-line"></i>
+<span>ANBK</span>
+</a>
+
+<a href="#">
+<i class="fa fa-wallet"></i>
+<span>BOS</span>
+</a>
+
+<a href="#">
+<i class="fa fa-house-user"></i>
+<span>Rumah Pendidikan</span>
+</a>
+
+<a href="#">
+<i class="fa fa-headset"></i>
+<span>Bantuan</span>
+</a>
+
+</nav>
+
+</aside>
+
+<!-- MAIN -->
+
+<main class="main">
+
+<!-- TOPBAR -->
+
+<header class="topbar">
+
+<div>
+
+<h2>Portal Operator SD</h2>
+
+<p>
+Semua layanan pendidikan dalam satu dashboard
+</p>
+
+</div>
+
+<div class="search-box">
+
+<input
+type="text"
+id="cariAplikasi"
+placeholder="Cari aplikasi...">
+
+</div>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-left">
+
+<h1>
+Portal Operator SD
+</h1>
+
+<p>
+Akses cepat Dapodik, Verval,
+GTK, ANBK, BOS, Rumah Pendidikan
+dan layanan pendidikan lainnya.
+</p>
+
+<a href="#layanan"
+class="btn-hero">
+Lihat Layanan
+</a>
+
+</div>
+
+<div class="hero-right">
+
+<div class="hero-icon">
+🎓
+</div>
+
+</div>
+
+</section>
+
+<!-- STATISTIK -->
+
+<section class="stats">
+
+<div class="stat-card">
+
+<h3 id="totalAplikasi">
+50+
+</h3>
+
+<p>
+Total Layanan
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h3 id="jam">
+00:00
+</h3>
+
+<p>
+Jam
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h3 id="tanggal">
+--
+</h3>
+
+<p>
+Tanggal
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h3>
+24/7
+</h3>
+
+<p>
+Online
+</p>
+
+</div>
+
+</section>
+
+<!-- AKSES CEPAT -->
+
+<section class="quick-access">
+
+<a
+target="_blank"
+href="https://dapo.kemendikdasmen.go.id"
+class="quick-card">
+
+🏫
+<span>Dapodik</span>
+
+</a>
+
+<a
+target="_blank"
+href="https://vervalpd.data.kemendikdasmen.go.id"
+class="quick-card">
+
+👨‍🎓
+<span>Verval PD</span>
+
+</a>
+
+<a
+target="_blank"
+href="https://info.gtk.dikdasmen.go.id"
+class="quick-card">
+
+👨‍🏫
+<span>Info GTK</span>
+
+</a>
+
+<a
+target="_blank"
+href="https://anbk.kemdikbud.go.id"
+class="quick-card">
+
+📊
+<span>ANBK</span>
+
+</a>
+
+<a
+target="_blank"
+href="https://arkas.kemdikdasmen.go.id"
+class="quick-card">
+
+💰
+<span>ARKAS</span>
+
+</a>
+
+<a
+target="_blank"
+href="https://rumah.pendidikan.go.id"
+class="quick-card">
+
+🏠
+<span>Rumah Pendidikan</span>
+
+</a>
+
+</section>
+
+<!-- MENU LAYANAN -->
+
+<section
+id="layanan"
+class="layanan">
+
+<h2>
+Semua Layanan Pendidikan
+</h2>
 
 <div class="kategori">
 
@@ -203,3 +460,58 @@ class="menu-card">
 </div>
 
 </div>
+
+
+</section>
+
+<!-- FAVORIT -->
+
+<section class="favorit">
+
+<h2>
+⭐ Favorit
+</h2>
+
+<div id="favoritContainer">
+Belum ada favorit
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div>
+
+© 2026 Portal Operator SD
+
+</div>
+
+<div>
+
+Dibuat untuk Operator Sekolah
+
+</div>
+
+</footer>
+
+</main>
+
+<!-- NOTIF -->
+
+<div id="notif"></div>
+
+<!-- BUTTON TOP -->
+
+<button id="btnTop">
+
+⬆
+
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
