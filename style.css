@@ -45,7 +45,10 @@ border-radius:12px;
 transition:.3s;
 }
 
-.sidebar nav a:hover
+.sidebar nav a:hover{
+background:#1565ff;
+color:#fff;
+}
 
 /* MAIN */
 
@@ -62,6 +65,14 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 margin-bottom:25px;
+}
+
+.topbar h2{
+font-size:32px;
+}
+
+.topbar p{
+color:#666;
 }
 
 .search-box input{
@@ -165,6 +176,7 @@ margin-bottom:40px;
 }
 
 .kategori h2{
+margin-top:30px;
 margin-bottom:15px;
 color:#0d47a1;
 }
@@ -224,13 +236,13 @@ position:fixed;
 right:20px;
 top:20px;
 background:#1565ff;
-color:white;
+color:#fff;
 padding:15px;
 border-radius:12px;
 display:none;
 }
 
-/* TOP BUTTON */
+/* BUTTON TOP */
 
 #btnTop{
 position:fixed;
@@ -238,7 +250,7 @@ right:20px;
 bottom:20px;
 border:none;
 background:#1565ff;
-color:white;
+color:#fff;
 padding:15px;
 border-radius:50%;
 cursor:pointer;
