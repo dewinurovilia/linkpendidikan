@@ -57,5 +57,33 @@ font-size:22px;
 .menu-grid{
 grid-template-columns:1fr;
 }
+.sidebar{
+width:260px;
+position:fixed;
+left:0;
+top:0;
+height:100vh;
+background:#fff;
+}
+
+.main{
+margin-left:260px;
+padding:30px;
+}
+
+.menu-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fill,minmax(240px,1fr));
+gap:15px;
+}
+
+.menu-card{
+background:white;
+padding:18px;
+border-radius:18px;
+text-decoration:none;
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
 
 }
