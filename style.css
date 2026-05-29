@@ -11,45 +11,6 @@ display:flex;
 color:#333;
 }
 
-/* SIDEBAR */
-
-.sidebar{
-width:260px;
-height:100vh;
-background:#fff;
-position:fixed;
-left:0;
-top:0;
-padding:20px;
-overflow-y:auto;
-box-shadow:0 0 20px rgba(0,0,0,.08);
-z-index:100;
-}
-
-.logo{
-font-size:24px;
-font-weight:bold;
-color:#1565ff;
-margin-bottom:25px;
-}
-
-.sidebar nav a{
-display:flex;
-align-items:center;
-gap:10px;
-padding:12px;
-margin-bottom:8px;
-text-decoration:none;
-color:#333;
-border-radius:12px;
-transition:.3s;
-}
-
-.sidebar nav a:hover{
-background:#1565ff;
-color:#fff;
-}
-
 /* MAIN */
 
 .main{
