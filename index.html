@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Operator SD Ultimate</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Segoe UI,sans-serif;background:#eef4ff;color:#222}
+.sidebar{position:fixed;left:0;top:0;width:280px;height:100vh;background:#fff;box-shadow:0 0 30px rgba(0,0,0,.1);padding:25px;overflow:auto}
+.logo{font-size:28px;font-weight:700;color:#2563eb;margin-bottom:25px}
+.menu a{display:flex;gap:12px;text-decoration:none;color:#333;padding:14px;border-radius:14px;margin-bottom:8px}
+.menu a:hover{background:#2563eb;color:#fff}
+.main{margin-left:280px;padding:25px}
+.hero{background:linear-gradient(135deg,#2563eb,#06b6d4);border-radius:30px;padding:40px;color:#fff;display:flex;justify-content:space-between;align-items:center}
+.hero h1{font-size:52px}
+.hero p{margin-top:10px;font-size:18px}
+.hero .illus{font-size:120px;opacity:.9}
+.search{margin-top:20px}
+.search input{width:100%;padding:16px;border:none;border-radius:40px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin:25px 0}
+.stat{background:#fff;padding:20px;border-radius:20px;box-shadow:0 5px 15px rgba(0,0,0,.08)}
+.stat h2{color:#2563eb}
+.quick,.apps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.qcard,.card{background:#fff;border-radius:22px;padding:20px;box-shadow:0 5px 15px rgba(0,0,0,.08)}
+.qcard{text-align:center}
+.qcard i{font-size:42px;color:#2563eb;margin-bottom:10px}
+.card h3{margin-bottom:12px;color:#2563eb}
+.card ul{list-style:none}
+.card li{padding:7px 0;border-bottom:1px solid #eee}
+.banner{margin:25px 0;background:#fff;border-radius:25px;padding:25px}
+.footer{margin-top:30px;background:#fff;border-radius:20px;padding:20px;text-align:center}
+@media(max-width:900px){
+.sidebar{width:90px}
+.logo{font-size:18px}
+.menu span{display:none}
+.main{margin-left:90px}
+.hero{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+<body>
+<div class="sidebar">
+<div class="logo">🎓 Operator SD</div>
+<div class="menu">
+<a href="#"><i class="fa fa-house"></i><span>Dashboard</span></a>
+<a href="#"><i class="fa fa-user"></i><span>Akun</span></a>
+<a href="#"><i class="fa fa-school"></i><span>Dapodik</span></a>
+<a href="#"><i class="fa fa-check-circle"></i><span>Verval</span></a>
+<a href="#"><i class="fa fa-chalkboard"></i><span>GTK</span></a>
+<a href="#"><i class="fa fa-chart-line"></i><span>ANBK</span></a>
+<a href="#"><i class="fa fa-wallet"></i><span>BOS</span></a>
+<a href="#"><i class="fa fa-book"></i><span>Referensi</span></a>
+</div>
+</div>
+
+<div class="main">
+<div class="hero">
+<div>
+<h1>Portal Operator SD</h1>
+<p>Pusat akses semua layanan pendidikan dalam satu dashboard modern.</p>
+<div class="search"><input placeholder="Cari aplikasi pendidikan..."></div>
+</div>
+<div class="illus">👨‍🏫</div>
+</div>
+
+<div class="stats">
+<div class="stat"><h2>35+</h2><p>Aplikasi Pendidikan</p></div>
+<div class="stat"><h2>7</h2><p>Kategori Utama</p></div>
+<div class="stat"><h2>24 Jam</h2><p>Akses Online</p></div>
+<div class="stat"><h2>100%</h2><p>Responsive</p></div>
+</div>
+
+<h2 style="margin-bottom:15px">Akses Cepat</h2>
+<div class="quick">
+<div class="qcard"><i class="fa fa-school"></i><h4>Dapodik</h4></div>
+<div class="qcard"><i class="fa fa-users"></i><h4>Verval PD</h4></div>
+<div class="qcard"><i class="fa fa-id-card"></i><h4>Verval PTK</h4></div>
+<div class="qcard"><i class="fa fa-user-tie"></i><h4>Info GTK</h4></div>
+<div class="qcard"><i class="fa fa-wallet"></i><h4>ARKAS</h4></div>
+<div class="qcard"><i class="fa fa-laptop"></i><h4>ANBK</h4></div>
+</div>
+
+<div class="banner">
+<h2>Semua Aplikasi Pendidikan</h2>
+<p>Dashboard premium dengan kategori lengkap.</p>
+</div>
+
+<div class="apps">
+<div class="card"><h3>Akun & Login</h3><ul><li>belajar.id</li><li>Manajemen SDM</li></ul></div>
+<div class="card"><h3>Dapodik</h3><ul><li>Dapodik</li><li>Manajemen Dapodik</li></ul></div>
+<div class="card"><h3>Verval</h3><ul><li>PD</li><li>PTK</li><li>SP</li><li>SDM</li></ul></div>
+<div class="card"><h3>GTK</h3><ul><li>Info GTK</li><li>SIMPKB</li><li>PMM</li></ul></div>
+<div class="card"><h3>Asesmen</h3><ul><li>ANBK</li><li>BioAN</li><li>Rapor Pendidikan</li></ul></div>
+<div class="card"><h3>Keuangan</h3><ul><li>ARKAS</li><li>SiPLah</li><li>PIP</li></ul></div>
+</div>
+
+<div class="footer">Portal Operator SD Ultimate Edition</div>
+</div>
+</body>
+</html>
