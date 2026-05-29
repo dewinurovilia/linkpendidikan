@@ -14,9 +14,10 @@ color:#333;
 /* MAIN */
 
 .main{
-margin-left:260px;
 padding:25px;
 width:100%;
+max-width:1600px;
+margin:auto;
 }
 
 /* TOPBAR */
@@ -137,10 +138,9 @@ LAYOUT KATEGORI
 .dashboard-grid{
 display:grid;
 grid-template-columns:
-repeat(auto-fit,minmax(380px,1fr));
-gap:25px;
-margin-top:25px;
-margin-bottom:30px;
+repeat(auto-fit,minmax(320px,1fr));
+gap:20px;
+align-items:start;
 }
 
 /* =========================
@@ -278,10 +278,6 @@ display:none;
 /* MOBILE */
 
 @media(max-width:900px){
-
-.sidebar{
-display:none;
-}
 
 .main{
 margin-left:0;
