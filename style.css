@@ -46,32 +46,6 @@ margin:auto;
     font-weight:700;
     color:#1565ff;
 }
-/* QUICK ACCESS */
-
-.quick-access{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-gap:15px;
-margin-bottom:35px;
-}
-
-.quick-card{
-background:#fff;
-padding:20px;
-border-radius:18px;
-text-decoration:none;
-color:#333;
-text-align:center;
-font-weight:bold;
-box-shadow:0 4px 12px rgba(0,0,0,.08);
-transition:.3s;
-}
-
-.quick-card:hover{
-background:#1565ff;
-color:#fff;
-transform:translateY(-4px);
-}
 
 /* =========================
 LAYOUT KATEGORI
