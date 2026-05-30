@@ -20,88 +20,30 @@ max-width:1600px;
 margin:auto;
 }
 
-/* TOPBAR */
-
-.topbar{
-display:flex;
-justify-content:space-between;
-align-items:center;
-margin-bottom:25px;
+.judul-area{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    width:100%;
 }
 
-.topbar h2{
-font-size:32px;
+.datetime{
+    text-align:right;
+    min-width:220px;
+    font-size:14px;
+    font-weight:600;
+    color:#555;
 }
 
-.topbar p{
-color:#666;
+#tanggal{
+    margin-bottom:3px;
 }
 
-.search-box input{
-width:320px;
-padding:12px 18px;
-border:1px solid #ddd;
-border-radius:30px;
-outline:none;
-}
-
-/* HERO */
-
-.hero{
-background:linear-gradient(135deg,#1565ff,#00b4ff);
-border-radius:25px;
-padding:40px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-color:#fff;
-margin-bottom:25px;
-}
-
-.hero h1{
-font-size:48px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:18px;
-margin-bottom:20px;
-}
-
-.btn-hero{
-display:inline-block;
-padding:12px 20px;
-background:#fff;
-color:#1565ff;
-text-decoration:none;
-border-radius:30px;
-font-weight:bold;
-}
-
-.hero-icon{
-font-size:120px;
-}
-
-/* STATISTIK */
-
-.stats{
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:15px;
-margin-bottom:30px;
-}
-
-.stat-card{
-background:#fff;
-padding:20px;
-border-radius:18px;
-text-align:center;
-box-shadow:0 4px 15px rgba(0,0,0,.08);
-}
-
-.stat-card h3{
-font-size:32px;
-color:#1565ff;
+#jam{
+    font-size:18px;
+    font-weight:700;
+    color:#1e88e5;
 }
 
 /* QUICK ACCESS */
