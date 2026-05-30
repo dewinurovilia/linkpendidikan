@@ -421,27 +421,3 @@ item.classList.add(
 
 });
 
-
-console.log(
-'Portal Operator SD Ready'
-);
-<script>
-function updateWaktu() {
-
-    const now = new Date();
-
-    document.getElementById('tanggal').innerHTML =
-        now.toLocaleDateString('id-ID',{
-            weekday:'long',
-            day:'numeric',
-            month:'long',
-            year:'numeric'
-        });
-
-    document.getElementById('jam').innerHTML =
-        now.toLocaleTimeString('id-ID');
-}
-
-updateWaktu();
-setInterval(updateWaktu,1000);
-</script>
