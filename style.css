@@ -28,21 +28,23 @@ margin:auto;
 }
 .datetime{
     text-align:left;
-    min-width:auto;
-    font-size:14px;
-    color:#666;
+    margin-top:5px;
+    width:100%;
 }
 
 #tanggal{
-    display:inline;
+    display:block;
+    text-align:left;
+    font-size:14px;
+    color:#555;
 }
 
 #jam{
-    display:inline;
-    font-size:14px;
-    font-weight:600;
+    display:block;
+    text-align:left;
+    font-size:18px;
+    font-weight:700;
     color:#1565ff;
-    margin-left:8px;
 }
 /* QUICK ACCESS */
 
